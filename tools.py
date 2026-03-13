@@ -10,15 +10,16 @@ def multiply(a: int, b: int) -> int:
     """Multiply two numbers"""
     return a * b
 
-@tool
-def divide(a: int, b: int) -> int:
-    """Divide two numbers"""
-    return a / b
+# @tool
+# def divide(a: int, b: int) -> int:
+#     """Divide two numbers"""
+#     return a / b
 
-@tool
-def subtract(a: int, b: int) -> int:
-    """Subtract two numbers"""
-    return a - b
+# @tool
+# def subtract(a: int, b: int) -> int:
+#     """Subtract two numbers"""
+#     return a - b
 
 
-tools = [add, multiply, divide, subtract]
+tools = [add, multiply]
+# tools = [add, multiply, divide, subtract]
